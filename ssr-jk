@@ -1,0 +1,9 @@
+#!/bin/sh
+port=$(netstat -nlt|grep 8080|wc -l)
+if [ $port -ne 1 ]
+then
+/etc/init.d/shadowsocks start
+echo 'restart ssr success!'
+else
+echo 'ssr is running!'
+fi
