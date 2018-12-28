@@ -24,4 +24,9 @@
 暂无，请参考mysql-jk，用法相同
 
 
+## AliYunServicesClear  uninstall-alibaba.sh 使用
+清理AliYun国内版后台服务(暂时只支持Centos系统)
+````shell
+bash -c "$(curl -sS https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/uninstall-alibaba.sh)"
+````
 
