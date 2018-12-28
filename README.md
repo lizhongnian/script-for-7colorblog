@@ -4,7 +4,7 @@
 * 七彩杂铺货：https://faka.7colorblog.com  
 
 # 使用教程
-## mysql-jk使用
+## mysql-jk.sh使用
 1. 宝塔直接复制脚本到计划任务菜单，添加shell脚本
 2. crontab 需要把文件放到指定目录
   执行
@@ -20,7 +20,7 @@
   systemctl restart crond.service
   ````
   
-## ssr-jk使用
+## ssr-jk.sh使用
 暂无，请参考mysql-jk，用法相同
 
 
@@ -31,3 +31,10 @@ bash -c "$(curl -sS https://raw.githubusercontent.com/lizhongnian/script-for-7co
 ````
 作者地址：https://github.com/FanhuaCloud/AliYunServicesClear
 
+## cikeblog.sh使用
+````shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/cikeblog.sh
+chmod +x cikeblog.sh && 
+bash cikeblog.sh
+````
+作者地址：https://cikeblog.com/work
