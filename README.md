@@ -20,6 +20,8 @@
   systemctl restart crond.service
   ````
   
+## ssr-jk使用
+暂无，请参考mysql-jk，用法相同
 
 
 
