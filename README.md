@@ -29,4 +29,5 @@
 ````shell
 bash -c "$(curl -sS https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/uninstall-alibaba.sh)"
 ````
+作者地址：https://github.com/FanhuaCloud/AliYunServicesClear
 
