@@ -33,8 +33,29 @@ bash -c "$(curl -sS https://raw.githubusercontent.com/lizhongnian/script-for-7co
 
 ## cikeblog.sh使用
 ````shell
-wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/cikeblog.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/cikeblog.sh &&
 chmod +x cikeblog.sh && 
 bash cikeblog.sh
 ````
 作者地址：https://cikeblog.com/work
+
+## ipcheck_ftqq.sh使用
+下载脚本到/root下
+````shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/ipcheck_ftqq.sh && chmod +x ipcheck_ftqq.sh 
+````
+将脚本加入定时任务中
+````shell
+echo "1 */1 * * * bash /root/ipcheck_ftqq.sh" >>/var/spool/cron/root
+````
+原文地址：https://www.7colorblog.com/?id=76
+
+## tomcat_restart.sh使用
+下载脚本到tomcat/bin目录下
+````shell
+wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/script-for-7colorblog/master/tomcat_restart.sh && chmod +x tomcat_restart.sh 
+````
+执行即可
+原文地址：https://www.7colorblog.com/?id=75
+
+## 未完待续。。。
